@@ -12,7 +12,7 @@
     --danger-color: #ee786b;
     --table-color: #171821;
     --circle-color: #14121e;
-    --light-gray-color: #636267
+    --light-gray-color: #636267;
 }
 
 * {
@@ -43,7 +43,12 @@ body {
     background-image: linear-gradient(180deg, rgb(255, 255, 0), rgb(206, 206, 28), rgb(201, 201, 8), rgb(165, 26, 165, 0.6));
     background-image: linear-gradient(170deg, #e64c62, #f73451, #f51436, #b1283d);
 } */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0px;
     margin: 0px;
 }
@@ -93,8 +98,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-gray-color);
 }
 
-
-
 .side-bar {
     margin-top: 50px;
     font-family: poppins-thin;
@@ -121,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
 }
 
-
 .box-icon {
     display: flex;
     justify-content: space-between;
@@ -135,7 +137,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 40px;
     background-color: black;
     border-radius: 40px;
-    background-image: linear-gradient(40deg, var(--circle-color), var(--circle-color),var(--success-gradient-color));
+    background-image: linear-gradient(
+        40deg,
+        var(--circle-color),
+        var(--circle-color),
+        var(--success-gradient-color)
+    );
     box-shadow: 2px -2px 3px 0px var(--success-color);
 }
 
@@ -146,16 +153,6 @@ h1, h2, h3, h4, h5, h6 {
 .box-icon > .fa-ellipsis-v {
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .top-nav {
     display: flex;
@@ -187,7 +184,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px;
 }
 
-
 .menu-bar {
     display: flex;
     column-gap: 30px;
@@ -202,7 +198,6 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     background: var(--secondary-color);
     border-radius: 50%;
-
 }
 
 .menu-bar i {
@@ -233,8 +228,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 10px;
 }
 
-
-
 .dashboard-illustrations {
     width: 100%;
     display: flex;
@@ -246,15 +239,21 @@ h1, h2, h3, h4, h5, h6 {
 .box-diagram-shadow {
     flex-grow: 1;
     background-color: transparent;
-    border-radius: 30px;    
-    box-shadow: 0px 50px 50px rgb(12, 11, 16, .8);
+    border-radius: 30px;
+    box-shadow: 0px 50px 50px rgb(12, 11, 16, 0.8);
 }
 
 .box-diagram {
     padding: 25px 30px;
-    background-image: linear-gradient(49deg, var(--primary-color), rgb(12, 11, 16, .8), rgb(12, 11, 16, 0.2), rgb(254, 184, 93, .4));
+    background-image: linear-gradient(
+        49deg,
+        var(--primary-color),
+        rgb(12, 11, 16, 0.8),
+        rgb(12, 11, 16, 0.2),
+        rgb(254, 184, 93, 0.4)
+    );
     border-radius: 30px;
-    box-shadow: 1px -1px .2px 0px var(--gold-color);
+    box-shadow: 1px -1px 0.2px 0px var(--gold-color);
     flex-grow: 1;
 }
 
@@ -268,7 +267,6 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     margin-bottom: 15px;
 }
-
 
 .flex-box-container {
     display: flex;
@@ -290,11 +288,15 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-gray-color);
 }
 
-
-
 .etherum-box {
-    background-image: linear-gradient(49deg, var(--primary-color), rgb(12, 11, 16, .8), rgb(12, 11, 16, 0.2), rgb(31, 192, 169, .4));
-    box-shadow: 1px -1px .2px 0px var(--success-color);
+    background-image: linear-gradient(
+        49deg,
+        var(--primary-color),
+        rgb(12, 11, 16, 0.8),
+        rgb(12, 11, 16, 0.2),
+        rgb(31, 192, 169, 0.4)
+    );
+    box-shadow: 1px -1px 0.2px 0px var(--success-color);
 }
 
 .eth-bg {
@@ -306,10 +308,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
 }
 
-
 .neos-box {
-    background-image: linear-gradient(49deg, var(--primary-color), rgb(12, 11, 16, .8), rgb(12, 11, 16, 0.2), rgb(238, 122, 109, .4));
-    box-shadow: 1px -1px .2px 0px var(--danger-color);
+    background-image: linear-gradient(
+        49deg,
+        var(--primary-color),
+        rgb(12, 11, 16, 0.8),
+        rgb(12, 11, 16, 0.2),
+        rgb(238, 122, 109, 0.4)
+    );
+    box-shadow: 1px -1px 0.2px 0px var(--danger-color);
 }
 
 .neos-icon-bg {
@@ -326,11 +333,6 @@ h1, h2, h3, h4, h5, h6 {
     /* background: red; */
 }
 
-
-
-
-
-
 .recent-activities-and-sell-order-container {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -341,7 +343,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .recent-activities-container {
     /* background: green; */
-    
 }
 
 .market-overview-and-weekly-container {
@@ -382,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-.table thead  p {
+.table thead p {
     margin: 30px 0;
     background: yellow;
     color: green;
@@ -406,7 +407,8 @@ tbody tr td:last-child {
     padding-right: 0;
 }
 
-.fa-arrow-up, .fa-arrow-down {
+.fa-arrow-up,
+.fa-arrow-down {
     font-size: 20px;
     padding: 10px;
     background: var(--primary-color);
@@ -418,7 +420,6 @@ tbody tr td:last-child {
     color: var(--danger-color);
 }
 
-
 /* SELL ORDER SECTION */
 
 .sell-order-container {
@@ -427,9 +428,8 @@ tbody tr td:last-child {
     background: var(--circle-color);
     height: 650px;
     border-radius: 40px;
-    position: absolute;
-    top: 10px;
-    right: -50px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .sell-order-and-icon-container {
@@ -437,8 +437,6 @@ tbody tr td:last-child {
     justify-content: space-between;
     padding: 20px 0;
 }
-
-
 
 .sell-order-table {
     width: 100%;
@@ -455,7 +453,6 @@ tbody tr td:last-child {
 .sell-order-table > tbody > tr > th:first-child {
     text-align: left;
     padding-left: 0;
-    
 }
 
 .sell-order-table > tbody > tr > td:first-child {
@@ -474,4 +471,3 @@ tbody tr td:last-child {
     background: var(--success-color);
     border-radius: 20px;
 }
-
